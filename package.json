@@ -1,0 +1,31 @@
+{
+  "name": "simple-azure-blob-storage-javascript-sdk",
+  "version": "0.0.1",
+  "description": "A simple JavaScript SDK to create blobs on Azure Blob Storage",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "test",
+    "build": "tsc --project tsconfig.json",
+    "prebuild": "rimraf dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielbonifacio/simple-azure-blob-storage-js-upload.git"
+  },
+  "keywords": [
+    "azure",
+    "blob",
+    "storage"
+  ],
+  "author": "danielbonifacio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danielbonifacio/simple-azure-blob-storage-js-upload/issues"
+  },
+  "homepage": "https://github.com/danielbonifacio/simple-azure-blob-storage-js-upload#readme",
+  "devDependencies": {
+    "rimraf": "^3.0.0",
+    "typescript": "^3.6.4"
+  }
+}
